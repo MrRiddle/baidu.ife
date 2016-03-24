@@ -1,26 +1,27 @@
 <html>
 	<head>
-		<title>01</title>
+		<title>02</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="basic.css">
 	</head>
 	<body>
 
 		<!-- Header -->
 		<header>
-			<h1>网站一级标题</h1>
 			<nav>
+			<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" alt="baidu logo" />
 				<ul>
 					<li>
-						<a href="#">导航链接一</a>
+						<span>●</span><a href="#">导航链接一</a>
 					</li>
 					<li>
-						<a href="#">导航链接二</a>
+						<span>●</span><a href="#">导航链接二</a>
 					</li>
 					<li>
-						<a href="#">导航链接三</a>
+						<span>●</span><a href="#">导航链接三</a>
 					</li>
 					<li>
-						<a href="#">导航链接四</a>
+						<span>●</span><a href="#">导航链接四</a>
 					</li>
 				</ul>
 			</nav>
@@ -77,25 +78,27 @@
 		<article>
 			<h2>图片</h2>
 			<div class="img-border">
-				<p>好看的图片</p>
+				<h5>好看的图片</h5>
 				<img src="http://ife.baidu.com/asset/img/logo.png" />
 			</div>
+			<br />
 			<div class="img-border">
-				<p>好看的图片</p>
+				<h5>好看的图片</h5>
 				<img src="http://ife.baidu.com/asset/img/logo.png" />
 			</div>
-			<div class="img-border">
-				<p>好看的图片</p>
+			<br /><div class="img-border">
+				<h5>好看的图片</h5>
 				<img src="http://ife.baidu.com/asset/img/logo.png" />
 			</div>
-			<div class="img-border">
-				<p>好看的图片</p>
+			<br /><div class="img-border">
+				<h5>好看的图片</h5>
 				<img src="http://ife.baidu.com/asset/img/logo.png" />
 			</div>
-			<div class="img-border">
-				<p>好看的图片</p>
+			<br /><div class="img-border">
+				<h5>好看的图片</h5>
 				<img src="http://ife.baidu.com/asset/img/logo.png" />
 			</div>
+			<br />
 		</article>
 		
 		<!-- Content3 -->
@@ -107,12 +110,12 @@
 				<span>文章发表时间</span>
 			</h4>
 			<ol>
-				<li>列表项目一</li>
-				<li>列表项目二</li>
-				<li>列表项目三</li>				
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>				
 			</ol>
 			<p>下面是一个表格</p>
-			<table border="1">
+			<table>
 				<thead>
 					<tr>
 						<th>姓名</th>
@@ -124,18 +127,23 @@
 					<tr><td>Alpha</td><td>300</td><td><a href="#">修改</a></td></tr>
 					<tr><td>Beta</td><td>300</td><td><a href="#">修改</a></td></tr>
 					<tr><td>Gamma</td><td>300</td><td><a href="#">修改</a></td></tr>
-					<tr><td>总分</td><td colspan="2">900</td></tr>
 				</tbody>
+				<tfoot>
+					<tr><td>总分</td><td colspan="2">900</td></tr>
+				</tfoot>
 			</table>
 		</article>
 
 		<!-- Side -->
 		<aside>
 			<h2>这里以后是个侧栏</h2>
-			<h2>侧栏注册窗口标题</h2>
 			<form>
-				<label>输入邮箱：<input type="email" name="email"/></label>
-				<p>邮箱地址请按格式输入</p>
+				<label>输入邮箱：
+					<input type="email" name="email" />
+					<br />
+					<span>邮箱地址请按格式输入</span>
+				</label>
+				
 				<label>输入密码：<input type="password" name="password" pattern="[0-9a-zA-Z]{6,16}"/></label>
 				<label>重复输入密码：<input type="password" name="password2" pattern="[0-9a-zA-Z]{6,16}"/></label>
 				<p>密码请为6-16位英文数字</p>
