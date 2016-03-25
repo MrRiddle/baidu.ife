@@ -114,7 +114,7 @@
 				<li>排名2</li>
 				<li>排名3</li>				
 			</ol>
-			<p>下面是一个表格</p>
+			<span>下面是一个表格</span>
 			<table>
 				<thead>
 					<tr>
@@ -136,74 +136,78 @@
 
 		<!-- Side -->
 		<aside>
-			<h2>这里以后是个侧栏</h2>
+			<h3>这里以后是个侧栏</h3>
 			<form>
-				<div>
-					<label>
-						<span>邮箱地址</span>
-						<input type="email" name="email" />
-						<p>邮箱地址请按格式输入</p>
-					</label>
-				</div>
-
-				<div>
-					<label>
-						<span>密码</span>
-						<input type="password" name="password" pattern="[0-9a-zA-Z]{6,16}" />
-					</label>
-				</div>
-				
-				<div>
-					<label>
-						<span>重复输入密码</span>
-						<input type="password" name="password2" pattern="[0-9a-zA-Z]{6,16}" />
-						<p>密码请为6-16位英文数字</p>
-					</label>
-				</div>
-
-				<div>
-					<span>性别</span>
-					<label>
-						<input type="radio" name="gender" value="m" checked />男
-					</label>
-					<label>
-						<input type="radio" name="gender" value="f" />女
-					</label>
-				</div>
-				
-				<div>
-					<label>
-						<span>城市</span>
-						<select name="city">
+				<table class="form-table">
+					<tr>
+						<th>请输入邮箱地址</th>
+						<td><input type="email" name="email" /></td>
+					</tr>
+					<tr>
+						<th></th>
+						<td><p>邮箱地址请按格式输入</p></td>
+					</tr>
+					<tr>
+						<th>请输入密码</th>
+						<td><input type="password" name="password" pattern="[0-9a-zA-Z]{6,16}" /></td>
+					</tr>
+					<tr>
+						<th>请重复输入密码</th>
+						<td><input type="password" name="password2" pattern="[0-9a-zA-Z]{6,16}" />
+						</td>
+					</tr>
+					<tr>
+						<th></th>
+						<td><p>密码请为6-16位英文数字</p></td>
+					</tr>
+					<tr>
+						<th>性别</th>
+						<td>
+							<label>
+								<input type="radio" name="gender" value="m" checked class="radioclass"/>男
+							</label>
+							<label>
+								<input type="radio" name="gender" value="f" class="radioclass"/>女
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<th>城市</th>
+						<td>
+							<select name="city">
 							<option value="bj" selected>北京</option>
 							<option value="sh">上海</option>
 							<option value="sz">深圳</option>
-						</select>
-					</label>
-				</div>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>爱好</th>
+						<td>
+							<label>
+								<input type="checkbox" name="interest" value="sport" />运动
+							</label>
+							<label>
+								<input type="checkbox" name="interest" value="art" />艺术
+							</label>
+							<label>
+								<input type="checkbox" name="interest" value="sci" />科学
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<th>个人描述</th>
+						<td>
+							<textarea name="desc" placeholder="输入描述"></textarea>
+						</td>
+					</tr>
+				</table>
+
+
+
 
 				<div>
-					<span>爱好</span>
-					<label>
-						<input type="checkbox" name="interest" value="sport" />运动
-					</label>
-					<label>
-						<input type="checkbox" name="interest" value="art" />艺术
-					</label>
-					<label>
-						<input type="checkbox" name="interest" value="sci" />科学
-					</label>
-				</div>
-
-				<div>
-					<label>
-						<span>个人描述</span>
-						<textarea name="desc" placeholder="输入描述"></textarea>
-					</label>
-				</div>
-
-				<div>
-					<button type="submit">确认提交</button>
+					<button type="submit" class="submit_buttom">确认提交</button>
 				</div>
 			</form>
 		</aside>
