@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>01</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	</head>
 	<body>
 
@@ -29,10 +30,10 @@
 		<article>
 			<h2>文章一级标题</h2>
 			<h3>文章二级标题</h3>
-			<p>
+			<h4>
 				<span>文章作者</span>
 				<span>文章发表时间</span>
-			</p>
+			</h4>
 			<p>
 				巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力
 				<br />
@@ -54,10 +55,10 @@
 		<article>
 			<h2>另一篇文章一级标题</h2>
 			<h3>文章二级标题</h3>
-			<p>
+			<h4>
 				<span>文章作者</span>
 				<span>文章发表时间</span>
-			</p>
+			</h4>
 			<p>
 				巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力，巴啦啦神奇魔力
 				<br />
@@ -71,27 +72,40 @@
 				<li>列表项目二</li>
 				<li>列表项目三</li>				
 			</ul>
-			<h3>图片</h3>
-			<p>好看的图片</p>
-			<img src="http://ife.baidu.com/asset/img/logo.png" />
-			<p>好看的图片</p>
-			<img src="http://ife.baidu.com/asset/img/logo.png" />
-			<p>好看的图片</p>
-			<img src="http://ife.baidu.com/asset/img/logo.png" />
-			<p>好看的图片</p>
-			<img src="http://ife.baidu.com/asset/img/logo.png" />
-			<p>好看的图片</p>
-			<img src="http://ife.baidu.com/asset/img/logo.png" />
+		</article>
+		
+		<article>
+			<h2>图片</h2>
+			<div class="img-border">
+				<p>好看的图片</p>
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
+			<div class="img-border">
+				<p>好看的图片</p>
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
+			<div class="img-border">
+				<p>好看的图片</p>
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
+			<div class="img-border">
+				<p>好看的图片</p>
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
+			<div class="img-border">
+				<p>好看的图片</p>
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
 		</article>
 		
 		<!-- Content3 -->
 		<article>
 			<h2>最后一篇文章一级标题</h2>
 			<h3>文章二级标题</h3>
-			<p>
+			<h4>
 				<span>文章作者</span>
 				<span>文章发表时间</span>
-			</p>
+			</h4>
 			<ol>
 				<li>列表项目一</li>
 				<li>列表项目二</li>
@@ -121,7 +135,7 @@
 			<h2>侧栏注册窗口标题</h2>
 			<form>
 				<label>输入邮箱：<input type="email" name="email"/></label>
-				<p><span>邮箱地址请按格式输入</p>
+				<p>邮箱地址请按格式输入</p>
 				<label>输入密码：<input type="password" name="password" pattern="[0-9a-zA-Z]{6,16}"/></label>
 				<label>重复输入密码：<input type="password" name="password2" pattern="[0-9a-zA-Z]{6,16}"/></label>
 				<p>密码请为6-16位英文数字</p>
@@ -136,9 +150,9 @@
 					</select>
 				</label>
 				<span>爱好：</span>
-				<input type="checkbox" name="interest" value="sport" />运动</label>
-				<input type="checkbox" name="interest" value="art" />艺术</label>
-				<input type="checkbox" name="interest" value="sci" />科学</label>
+				<label><input type="checkbox" name="interest" value="sport" />运动</label>
+				<label><input type="checkbox" name="interest" value="art" />艺术</label>
+				<label><input type="checkbox" name="interest" value="sci" />科学</label>
 				<label>
 					个人描述：
 					<textarea name="desc" placeholder="输入描述"></textarea>
