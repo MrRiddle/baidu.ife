@@ -91,3 +91,58 @@ tfoot td {
 	font-weight: bold;
 	background-color: #999;
 }
+
+aside h3{
+ 	border-left: 3px solid #999;
+ 	line-height: 200%;
+ 	padding-left: 10px;
+}
+
+aside table th{
+	width: 30%;
+	font-weight: 100;
+	font-size: 1em;
+	text-align: right;
+	vertical-align:top;
+	border:none;
+}
+aside table p{
+	color:#999;
+	padding-bottom: 20px;
+}
+aside table td{
+	width: 70%;
+	border:none;
+	vertical-align:top;
+}
+aside textarea{
+	height: 100px; 
+	width: 80%; 
+}
+.radioclass{
+	width:16px;
+	height:16px;
+}
+
+.submit_buttom{
+	background: #4485ff;
+	color:white;
+	font-family: 微软雅黑;
+	font-size: 1em;
+	height: 50px; 
+	width: 100%; 
+	border-radius: 10px;
+}
+
+select{
+	border-radius: 5px;
+}
+
+footer{ 
+	text-align: center;
+	background-color:black;
+	font-size: 0.5em;
+	padding-top:20px;
+	padding-bottom:40px;
+	color: #fff;
+}
