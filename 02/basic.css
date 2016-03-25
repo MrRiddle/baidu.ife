@@ -91,11 +91,3 @@ tfoot td {
 	font-weight: bold;
 	background-color: #999;
 }
-
-form label {
-	width: 40%;
-}
-
-form input {
-	width: 60%;
-}
