@@ -1,0 +1,93 @@
+body {
+	margin: 0px;
+	font-family: Microsoft Yahei;
+	background-color: #CCC;
+}
+
+header {
+	background-color: #333;
+	padding: 10px 20px;
+}
+
+nav ul,nav li,nav img {
+	display: inline;
+}
+
+nav ul {
+	float: right;
+	margin-top: 10px;
+}
+
+nav li a{
+	color: #FFF;
+	font-size: 0.5em;
+	text-decoration: none;
+}
+
+nav li span {
+	margin: 0.5em;
+	font-size: 0.5em;
+}
+
+nav li a:active {
+	color: #CCC;
+}
+
+article,aside {
+	background-color: #FFF;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	box-shadow: 2px 2px 5px #888;
+}
+
+article p {
+	text-indent: 2em;
+	line-height: 200%
+}
+
+article h3,article h4 {
+	color: #999;
+}
+
+article ul{
+	list-style-type: none;
+	line-height: 200%;
+}
+
+article ol {
+	line-height: 200%;
+}
+
+.img-border {
+	display: inline-block;
+	border: solid #CCC 1px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.img-border img{
+	background-color: #333;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	font-size: 1em;
+	border-collapse: collapse;
+}
+
+thead th {
+	background-color: #333;
+	color: #FFF;
+}
+
+th,td {
+	padding: 5px;
+	border: solid #999 1px;
+}
+
+tfoot td {
+	font-weight: bold;
+	background-color: #999;
+}
